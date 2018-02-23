@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import FirstPlatformer from './Game';
+import FirstPlatformerTwo from './GameTwo';
+import FirstPlatformerThree from './GameThree';
 import './App.css';
 
 class App extends Component {
   render() {
-    FirstPlatformer();
+    FirstPlatformerThree();
     return (
-      <div className="myCanvas">
+      <div id="myCanvas">
 
       </div>
     );
